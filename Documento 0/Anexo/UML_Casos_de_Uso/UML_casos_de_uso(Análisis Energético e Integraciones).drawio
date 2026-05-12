@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="j06TXlCjtNnFBIsBARB7">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="139.37" width="93" x="827" y="348.12" as="geometry" />
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=light-dark(#FFFFFF,#2B7DCF);strokeColor=#000000;fontColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="510" width="600" x="256.88" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#000000;strokeColor=#36393d;fontFamily=Times New Roman;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="250" y="477.495" as="geometry" />
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2B7DCF);strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=12;" value="Configurando métricas hídricas y refrigeración" vertex="1">
+          <mxGeometry height="80" width="150" x="481.88" y="399.995" as="geometry" />
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2B7DCF);strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=12;" value="Actualizando factores de emisión" vertex="1">
+          <mxGeometry height="80" width="150" x="481.88" y="609.995" as="geometry" />
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2B7DCF);strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=12;" value="Sincronizando tarifas de mercado (Billing)" vertex="1">
+          <mxGeometry height="80" width="150" x="481.88" y="509.995" as="geometry" />
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=14;" value="&lt;h3 data-path-to-node=&quot;3&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Módulo de análisis energético e integraciones&lt;/font&gt;&lt;/h3&gt;&lt;p data-path-to-node=&quot;4&quot;&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="185.62" x="464.07" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-9" edge="1" parent="1" source="NX57nGW8n7CWi-yRrs1b-3" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#000000);" target="NX57nGW8n7CWi-yRrs1b-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="233.12" y="537.495" as="sourcePoint" />
+            <mxPoint x="228.12" y="424.995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-10" edge="1" parent="1" source="NX57nGW8n7CWi-yRrs1b-3" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#000000);" target="NX57nGW8n7CWi-yRrs1b-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="233.12" y="537.495" as="sourcePoint" />
+            <mxPoint x="458.12" y="427.495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-12" edge="1" parent="1" source="NX57nGW8n7CWi-yRrs1b-3" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#000000);" target="NX57nGW8n7CWi-yRrs1b-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="218.12" y="414.495" as="sourcePoint" />
+            <mxPoint x="373.12" y="327.495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#2B7DCF);strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=12;" value="Configurando matriz energética y PUE" vertex="1">
+          <mxGeometry height="80" width="150" x="481.88" y="289.995" as="geometry" />
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-14" edge="1" parent="1" source="NX57nGW8n7CWi-yRrs1b-3" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#000000);" target="NX57nGW8n7CWi-yRrs1b-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="188.12" y="734.4949999999999" as="sourcePoint" />
+            <mxPoint x="353.12" y="667.495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-15" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;fontColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;API Billing Cloud&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="858.5" y="367.81000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;API&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="843.5" y="323.18000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-17" edge="1" parent="1" source="NX57nGW8n7CWi-yRrs1b-15" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#000000);" target="NX57nGW8n7CWi-yRrs1b-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="880" y="671.87" as="sourcePoint" />
+            <mxPoint x="1097" y="691.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="139.37" width="93" x="827" y="574.9399999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-19" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#000000;fontColor=#ffffff;strokeColor=#000000;fontFamily=Times New Roman;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Fuente Oficial&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Ambiental&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="858.5" y="594.63" as="geometry" />
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;lt;&amp;lt;system&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="843.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="NX57nGW8n7CWi-yRrs1b-21" edge="1" parent="1" source="NX57nGW8n7CWi-yRrs1b-19" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#000000);" target="NX57nGW8n7CWi-yRrs1b-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="952" y="583" as="sourcePoint" />
+            <mxPoint x="710" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
