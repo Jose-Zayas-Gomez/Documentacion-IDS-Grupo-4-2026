@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" agent="Claude">
+  <diagram name="Diagrama de Despliegue" id="deployment-diagram">
+    <mxGraphModel dx="1460" dy="2406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;" value="Diagrama de Despliegue UML&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="1200" x="400" as="geometry" />
+        </mxCell>
+        <mxCell id="pc_title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;PC Cliente / Usuario" vertex="1">
+          <mxGeometry height="35" width="380" x="60" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pc_hw_label" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" value="Hardware" vertex="1">
+          <mxGeometry height="200" width="380" x="60" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="pc_hw_content" parent="1" style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=20;spacingTop=5;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;• Procesador: Intel Core i5 8va Gen o superior&lt;br&gt;• RAM: Mínimo 8 GB&lt;br&gt;• Disco Duro: SSD 256 GB&lt;br&gt;• Tarjeta de red Ethernet / WiFi&lt;br&gt;• Conexión a Internet estable&lt;br&gt;• Pantalla: Resolución mínima 1366 x 768&lt;br&gt;• Teclado y mouse&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="360" x="70" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pc_sw_label" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" value="Software" vertex="1">
+          <mxGeometry height="280" width="380" x="60" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="pc_sw_content" parent="1" style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=20;spacingTop=5;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;• Sistema Operativo: Windows 10/11, macOS o Linux&lt;br&gt;• Navegador Web (Browser):&lt;br&gt;     - Google Chrome&lt;br&gt;     - Mozilla Firefox&lt;br&gt;     - Microsoft Edge&lt;br&gt;• Cliente Web (Frontend):&lt;br&gt;     - HTML5, CSS3, JavaScript&lt;br&gt;     - Interfaz de Usuario (UI)&lt;br&gt;     - Semáforos visuales verde/amarillo/rojo&lt;br&gt;       (RF03, RF04, RF05)&lt;br&gt;     - Visor de reportes (RF06, RF07)&lt;br&gt;     - Vista comparación de modelos (RF24)&lt;br&gt;     - Tabla paginada de modelos (RF08)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="250" width="360" x="70" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="app_title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Servidor de Aplicación" vertex="1">
+          <mxGeometry height="35" width="440" x="780" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="app_hw_label" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" value="Hardware" vertex="1">
+          <mxGeometry height="200" width="440" x="780" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="app_hw_content" parent="1" style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=20;spacingTop=5;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;• Procesador: 12th Gen Intel Core i5-12500H&lt;br&gt;   2.50 GHz o superior&lt;br&gt;• RAM: Al menos 16 GB&lt;br&gt;• Disco Duro: SSD 500 GB&lt;br&gt;• Tarjeta de red Gigabit Ethernet&lt;br&gt;• Fuente de alimentación con respaldo UPS&lt;br&gt;• Conexión a Internet de alta velocidad&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="420" x="790" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="app_sw_label" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" value="Software" vertex="1">
+          <mxGeometry height="540" width="440" x="780" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="app_sw_content" parent="1" style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=20;spacingTop=5;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;• Sistema Operativo: Windows Server / Linux Ubuntu&lt;br&gt;• Node.js (Runtime)&lt;br&gt;• Express.js (Framework Backend)&lt;br&gt;• API REST (RF34)&lt;br&gt;• Módulo de Autenticación:&lt;br&gt;     - Login y Registro (RF55, RF56)&lt;br&gt;     - Restablecimiento contraseña (RF59)&lt;br&gt;• Generador de Reportes:&lt;br&gt;     - PDF, CSV, JSON, XLSX&lt;br&gt;       (RF01, RF02, RF28, RF66)&lt;br&gt;• Motor de Cálculo:&lt;br&gt;     - Huella carbono gCO2eq/kWh (RF21)&lt;br&gt;     - Green Score 1-100 (RF46)&lt;br&gt;     - Consumo hídrico WUE/WSI (RF51, RF53)&lt;br&gt;     - Configuración PUE (RF47)&lt;br&gt;     - Modificadores refrigeración (RF52)&lt;br&gt;• Algoritmo Heurístico (RF30, RF31, RF32)&lt;br&gt;• Modelo de Regresión - Capacity Planning (RF42)&lt;br&gt;• Módulo de Notificaciones Asíncronas&lt;br&gt;     (RF37, RF38, RF39)&lt;br&gt;• Cliente SNMP / Modbus TCP (RF36)&lt;br&gt;• Importador (JSON, YAML, CSV) (RF13, RF41)&lt;br&gt;• Gestor de Plantillas Hardware&lt;br&gt;     (RF40, RF41, RF64, RF65)&lt;br&gt;• Gestor de Proyectos (RF33, RF60, RF61)&lt;br&gt;• Soporte Markdown (RF18)&lt;br&gt;• Validador de umbrales (RF19, RF70)&lt;br&gt;• Librerías: PDFKit, ExcelJS, bcrypt&lt;/font&gt;" vertex="1">
+          <mxGeometry height="510" width="420" x="790" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="db_title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Servidor de Base de Datos" vertex="1">
+          <mxGeometry height="35" width="400" x="1560" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="db_hw_label" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" value="Hardware" vertex="1">
+          <mxGeometry height="180" width="400" x="1560" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="db_hw_content" parent="1" style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=20;spacingTop=5;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;• Procesador: Intel Xeon o AMD EPYC&lt;br&gt;• RAM: Al menos 16 GB&lt;br&gt;• Disco Duro: SSD 1 TB (con RAID)&lt;br&gt;• Tarjeta de red Gigabit Ethernet&lt;br&gt;• Sistema de respaldo UPS&lt;br&gt;• Refrigeración adecuada&lt;/font&gt;" vertex="1">
+          <mxGeometry height="150" width="380" x="1570" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="db_sw_label" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" value="Software" vertex="1">
+          <mxGeometry height="380" width="400" x="1560" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="db_sw_content" parent="1" style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=20;spacingTop=5;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;• Sistema Operativo: Linux Ubuntu Server&lt;br&gt;• MySQL / PostgreSQL (Relacional) o&lt;br&gt;   MongoDB (NoSQL) - RF15&lt;br&gt;• Esquema de Base de Datos:&lt;br&gt;     - Usuarios y Roles (RF55, RF56)&lt;br&gt;     - Proyectos y Modelos (RF33)&lt;br&gt;     - Catálogo procesadores con TDP (RF26)&lt;br&gt;     - Componentes personalizados (RF27)&lt;br&gt;     - Plantillas de Hardware&lt;br&gt;       (RF40, RF64, RF65)&lt;br&gt;     - Diccionario factores emisión (RF48)&lt;br&gt;     - Bitácora Time-series (RF29)&lt;br&gt;     - Historial ISO 8601 (RF67)&lt;br&gt;     - Umbrales semáforo (RF19, RF70)&lt;br&gt;     - Configuración Soft/Hard delete (RF14)&lt;br&gt;     - Cuotas por usuario/equipo (RF44)&lt;br&gt;     - Presupuesto y límites (RF22, RF23)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="340" width="380" x="1570" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud_title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Servidores Cloud (Externos)" vertex="1">
+          <mxGeometry height="35" width="380" x="60" y="997.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud_hw_label" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" value="Hardware" vertex="1">
+          <mxGeometry height="130" width="380" x="60" y="1032.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud_hw_content" parent="1" style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=20;spacingTop=5;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;• Infraestructura de proveedores Cloud:&lt;br&gt;     - AWS / Azure / Google Cloud Platform&lt;br&gt;• Centros de datos distribuidos por región&lt;br&gt;• Hardware administrado por el proveedor&lt;/font&gt;" vertex="1">
+          <mxGeometry height="92.5" width="360" x="70" y="1057.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud_sw_label" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" value="Software" vertex="1">
+          <mxGeometry height="200" width="380" x="60" y="1162.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cloud_sw_content" parent="1" style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=20;spacingTop=5;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;• API REST de Billing (RF34):&lt;br&gt;     - AWS Cost Explorer API&lt;br&gt;     - Azure Cost Management API&lt;br&gt;     - GCP Cloud Billing API&lt;br&gt;• Matriz oficial de emisiones por&lt;br&gt;   región (RF20, RF49)&lt;br&gt;• Datos de facturación dinámica&lt;br&gt;   (Peak / Off-Peak Rates)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="162.5" width="360" x="70" y="1187.5" as="geometry" />
+        </mxCell>
+        <mxCell id="emission_title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Fuentes Oficiales de Emisión" vertex="1">
+          <mxGeometry height="35" width="440" x="780" y="997.5" as="geometry" />
+        </mxCell>
+        <mxCell id="emission_hw_label" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" value="Hardware" vertex="1">
+          <mxGeometry height="100" width="440" x="780" y="1032.5" as="geometry" />
+        </mxCell>
+        <mxCell id="emission_hw_content" parent="1" style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=20;spacingTop=5;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;• Servidores web de organismos oficiales&lt;br&gt;• Infraestructura administrada por terceros&lt;/font&gt;" vertex="1">
+          <mxGeometry height="72.5" width="420" x="790" y="1057.5" as="geometry" />
+        </mxCell>
+        <mxCell id="emission_sw_label" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" value="Software" vertex="1">
+          <mxGeometry height="230" width="440" x="780" y="1132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="emission_sw_content" parent="1" style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=20;spacingTop=5;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;• API REST de factores de emisión (RF35):&lt;br&gt;     - ElectricityMaps&lt;br&gt;     - WattTime&lt;br&gt;     - Datos en gCO2eq/kWh por región&lt;br&gt;• Intensidad de carbono horaria (RF32)&lt;br&gt;   - Carbon-aware shifting&lt;br&gt;• Índices WSI - Escasez Hídrica (RF53)&lt;br&gt;• Diccionario factores estándar (RF48)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="192.5" width="420" x="790" y="1157.5" as="geometry" />
+        </mxCell>
+        <mxCell id="onprem_title" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#000000;fontSize=14;fontStyle=1;verticalAlign=middle;align=center;" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;br&gt;Infraestructura Física On-Premise" vertex="1">
+          <mxGeometry height="35" width="400" x="1560" y="997.5" as="geometry" />
+        </mxCell>
+        <mxCell id="onprem_hw_label" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" value="Hardware" vertex="1">
+          <mxGeometry height="200" width="400" x="1560" y="1032.5" as="geometry" />
+        </mxCell>
+        <mxCell id="onprem_hw_content" parent="1" style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=20;spacingTop=5;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;• PDU Inteligente (Regleta inteligente)&lt;br&gt;• UPS (Sistema de Alimentación&lt;br&gt;   Ininterrumpida)&lt;br&gt;• Sensores de temperatura y consumo&lt;br&gt;• Generador de respaldo diésel&lt;br&gt;   (opcional) (RF50)&lt;br&gt;• Sistema de refrigeración&lt;br&gt;   (Aire / Líquida / Inmersión) (RF52)&lt;br&gt;• Flujómetros físicos para&lt;br&gt;   huella hídrica (RF54)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="162.5" width="380" x="1570" y="1047.5" as="geometry" />
+        </mxCell>
+        <mxCell id="onprem_sw_label" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontStyle=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=5;" value="Software" vertex="1">
+          <mxGeometry height="130" width="400" x="1560" y="1232.5" as="geometry" />
+        </mxCell>
+        <mxCell id="onprem_sw_content" parent="1" style="text;html=1;strokeColor=#FFFFFF;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=11;spacingLeft=20;spacingTop=5;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;• Firmware con soporte SNMP&lt;br&gt;• Protocolo Modbus TCP&lt;br&gt;• Telemetría en Watts (RF16, RF36)&lt;br&gt;• Lectura empírica de PUE (RF47)&lt;br&gt;• Métricas hídricas locales (RF54)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="102.5" width="380" x="1570" y="1257.5" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_pc_app" edge="1" parent="1" source="pc_sw_label" style="endArrow=classic;html=1;rounded=0;fontSize=13;fontStyle=1;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;strokeColor=#000000;" target="app_sw_label" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;lt;&amp;lt;HTTPS&amp;gt;&amp;gt;&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;HTTP / REST&lt;/span&gt;&lt;br&gt;&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_app_db" edge="1" parent="1" source="app_sw_label" style="endArrow=classic;html=1;rounded=0;fontSize=13;fontStyle=1;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;strokeColor=#000000;" target="db_sw_label" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;TCP/IP&amp;gt;&amp;gt;&lt;br style=&quot;&quot;&gt;Driver BD&lt;/font&gt;">
+          <mxGeometry relative="1" x="0.0017" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_app_cloud" edge="1" parent="1" source="app_sw_label" style="endArrow=classic;html=1;rounded=0;fontSize=13;fontStyle=1;strokeWidth=2;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;strokeColor=#000000;" target="cloud_title" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;HTTPS&amp;gt;&amp;gt;&lt;br style=&quot;&quot;&gt;API REST&lt;br style=&quot;&quot;&gt;(Billing)&lt;/font&gt;">
+          <mxGeometry relative="1" x="-0.0703" y="-12" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_app_emission" edge="1" parent="1" source="app_sw_label" style="endArrow=classic;html=1;rounded=0;fontSize=13;fontStyle=1;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;strokeColor=#000000;" target="emission_title" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;HTTPS&amp;gt;&amp;gt;&lt;br style=&quot;&quot;&gt;API REST&lt;br style=&quot;&quot;&gt;(Factores Emisión)&lt;/font&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_app_onprem" edge="1" parent="1" source="app_sw_label" style="endArrow=classic;html=1;rounded=0;fontSize=13;fontStyle=1;strokeWidth=2;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;strokeColor=#000000;" target="onprem_title" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;lt;&amp;lt;SNMP / Modbus TCP&amp;gt;&amp;gt;&lt;br style=&quot;&quot;&gt;Telemetría&lt;/font&gt;">
+          <mxGeometry relative="1" x="0.1052" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
