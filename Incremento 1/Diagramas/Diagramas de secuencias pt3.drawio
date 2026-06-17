@@ -1,0 +1,978 @@
+<mxfile host="app.diagrams.net" pages="11">
+  <diagram name="CU 63.1" id="lMsnXdXOxPY3ZS6bqryD">
+    <mxGraphModel dx="1528" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n5ea8b04b47" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;" value="CU 63.1 - Equiparando % presupuesto ambiental (Flujo principal)" vertex="1">
+          <mxGeometry height="26" width="900" x="100" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="nda9df9cdb9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="V_CostoFinOps" vertex="1">
+          <mxGeometry height="460" width="150" x="285" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nbb64fa0b17" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_IAController" vertex="1">
+          <mxGeometry height="460" width="150" x="515" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n869a0a91f7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_MySQL_Controller" vertex="1">
+          <mxGeometry height="460" width="150" x="745" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="na1a4729bae" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="Proyecto" vertex="1">
+          <mxGeometry height="460" width="150" x="975" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n2c1fcc5956" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="Historial_Ejecución" vertex="1">
+          <mxGeometry height="460" width="150" x="1205" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nfd60b1ab3e" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;rounded=0;" value="Accede al panel maestro de presupuesto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n499097bcca" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Solicita indicador ecologico dual">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="181.5" as="sourcePoint" />
+            <mxPoint x="590" y="181.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6ecc7e925b" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Consulta limite ecologico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="210" as="sourcePoint" />
+            <mxPoint x="820" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nf068ece167" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Lee limite_carbono_mensual">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="240" as="sourcePoint" />
+            <mxPoint x="1050" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n9b42982f6f" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="retorna limite CO2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="280" as="sourcePoint" />
+            <mxPoint x="820" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3d3d7bd18d" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Consulta CO2 acumulado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="310" as="sourcePoint" />
+            <mxPoint x="820" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4925b5eb22" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Lee emision_calculada_gCO2eq">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="341" as="sourcePoint" />
+            <mxPoint x="1280" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n5178cccae8" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="retorna CO2 acumulado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="380" as="sourcePoint" />
+            <mxPoint x="820" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n7f4b1bb3c8" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Datos limite + acumulado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="420" as="sourcePoint" />
+            <mxPoint x="590" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nd6e9a432ef" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Proporcion CO2 + tonalidad (verde/rojo)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="360" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8bd21f801d" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Muestra indicador ecologico paralelo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="490" as="sourcePoint" />
+            <mxPoint x="130" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VHbNb79adC6QrH510rRC-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Usuario" vertex="1">
+          <mxGeometry height="46" width="35" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VHbNb79adC6QrH510rRC-6" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="130" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU 63.1 - Excepcion 1" id="Nj5NzARYDvmkW-2yC5uQ">
+    <mxGraphModel dx="1264" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n6e0f7c668c" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;" value="CU 63.1 - Excepcion 1: Limite ecologico no fijado" vertex="1">
+          <mxGeometry height="26" width="900" x="100" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n84ec77c1b3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="V_CostoFinOps" vertex="1">
+          <mxGeometry height="500" width="150" x="285" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n3a61fdd6a9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_IAController" vertex="1">
+          <mxGeometry height="500" width="150" x="515" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n4b8538932e" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_MySQL_Controller" vertex="1">
+          <mxGeometry height="500" width="150" x="745" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n502e1f4ba0" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="Proyecto" vertex="1">
+          <mxGeometry height="500" width="150" x="975" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nd3d18f860e" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;rounded=0;" value="Accede al panel maestro">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nff31f13052" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Solicita indicador ecologico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="202" as="sourcePoint" />
+            <mxPoint x="590" y="202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nc2d1b404d9" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Consulta limite ecologico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="254" as="sourcePoint" />
+            <mxPoint x="820" y="254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3446dc9d58" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Lee limite_carbono_mensual">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="306" as="sourcePoint" />
+            <mxPoint x="1050" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n5e7b8bb49d" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Retorna valor nulo / no definido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="358" as="sourcePoint" />
+            <mxPoint x="820" y="358" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8ff2c91f91" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Sin limite ecologico base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="410" as="sourcePoint" />
+            <mxPoint x="590" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n21a995885d" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="No se puede trazar avance">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="462" as="sourcePoint" />
+            <mxPoint x="360" y="462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n83fec680c5" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Notifica limite ecologico inexistente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="514" as="sourcePoint" />
+            <mxPoint x="130" y="514" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bEHzz69_C3pPHRCEUVnx-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Usuario" vertex="1">
+          <mxGeometry height="46" width="35" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bEHzz69_C3pPHRCEUVnx-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="130" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU 63.1 - Excepcion 2" id="Ft_ZGDrMk9w39kXgM_R9">
+    <mxGraphModel dx="1078" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n9aa62b0018" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;" value="CU 63.1 - Excepcion 2: Valor divisor ausente (division no evaluable)" vertex="1">
+          <mxGeometry height="26" width="900" x="90" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n13d611c080" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="V_CostoFinOps" vertex="1">
+          <mxGeometry height="420" width="150" x="285" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nc12519baff" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_IAController" vertex="1">
+          <mxGeometry height="420" width="150" x="515" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n25242cad2e" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_MySQL_Controller" vertex="1">
+          <mxGeometry height="420" width="150" x="745" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n19731d5d68" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="Proyecto" vertex="1">
+          <mxGeometry height="420" width="150" x="975" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n48b63d2592" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;rounded=0;" value="Accede al panel maestro">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4cb98538d5" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Solicita indicador ecologico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="sourcePoint" />
+            <mxPoint x="590" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nb0aaf40b54" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Consulta limite (divisor)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="220" as="sourcePoint" />
+            <mxPoint x="820" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1cc00d1d88" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Lee limite_carbono_mensual">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="250" as="sourcePoint" />
+            <mxPoint x="1050" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndbea343d96" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Retorna divisor = 0 / vacio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="290" as="sourcePoint" />
+            <mxPoint x="820" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n67d4b91332" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Sin valor divisor valido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="320" as="sourcePoint" />
+            <mxPoint x="590" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n09a094474e" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;rounded=1;" value="Cancela render (division no evaluable)">
+          <mxGeometry relative="1" x="0.1194" y="45" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="645" y="350" />
+              <mxPoint x="645" y="374" />
+            </Array>
+            <mxPoint x="590" y="350" as="sourcePoint" />
+            <mxPoint x="590" y="374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n36d097e67e" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Cancela componente ecologico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="400" as="sourcePoint" />
+            <mxPoint x="360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n232650fcbb" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Oculta indicador preventivamente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="430" as="sourcePoint" />
+            <mxPoint x="130" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GRchmJZ5PSxo31oTdWvP-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Usuario" vertex="1">
+          <mxGeometry height="46" width="35" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRchmJZ5PSxo31oTdWvP-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="130" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU 63.2" id="ZNyrdicDi-8rA7ycXupk">
+    <mxGraphModel dx="1264" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n646a09fef5" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;" value="CU 63.2 - Insignia de eficiencia a cierre de mes (Flujo principal)" vertex="1">
+          <mxGeometry height="26" width="900" x="90" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n0c8e48c25d" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_IAController" vertex="1">
+          <mxGeometry height="490" width="150" x="285" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n1cf1e8bd5b" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_MySQL_Controller" vertex="1">
+          <mxGeometry height="490" width="150" x="515" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n7dd634f4e1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="Historial_Ejecución" vertex="1">
+          <mxGeometry height="490" width="150" x="745" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nfd3b3e5306" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="V_Historial" vertex="1">
+          <mxGeometry height="490" width="150" x="975" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ne501ea1c40" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;rounded=0;" value="Trigger fin de mes (expiracion temporal)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6b1368ebfb" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Consulta registro mensual consolidado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="181.44" as="sourcePoint" />
+            <mxPoint x="590" y="181.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n312c39c0b5" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Lee emisiones del mes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="207.44" as="sourcePoint" />
+            <mxPoint x="820" y="207.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nc885ca8780" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Retorna consumo mensual">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="240" as="sourcePoint" />
+            <mxPoint x="590" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n87e7b366fe" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Datos consolidados del mes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="270" as="sourcePoint" />
+            <mxPoint x="360" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n546fbc325b" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;rounded=1;" value="Verifica barra verde &lt; 50% sostenible">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="415" y="300" />
+              <mxPoint x="415" y="324" />
+            </Array>
+            <mxPoint x="360" y="300" as="sourcePoint" />
+            <mxPoint x="360" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nf4aecdb7d3" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Inyecta insignia ecologica">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="350" as="sourcePoint" />
+            <mxPoint x="590" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n66b1e3974f" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Registra estrella verde (perenne)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="380.00000000000006" as="sourcePoint" />
+            <mxPoint x="820" y="380.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nf2cc36d4a9" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Confirma registro">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="410" as="sourcePoint" />
+            <mxPoint x="590" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n5bf6d0e19d" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Insignia consolidada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="445" as="sourcePoint" />
+            <mxPoint x="360" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8c8d9faf48" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Genera recompensa visual">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="480" as="sourcePoint" />
+            <mxPoint x="1050" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ne932a66e55" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Muestra insignia en informe historico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="510" as="sourcePoint" />
+            <mxPoint x="130" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nj7LJhZW35en9NnZ5xKQ-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Sistema" vertex="1">
+          <mxGeometry height="46" width="35" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nj7LJhZW35en9NnZ5xKQ-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;fillColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="130" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU 63.2 - Excepcion 1" id="-vNWnenAkGCTV3U9bTgo">
+    <mxGraphModel dx="917" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ne84c5245c6" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;" value="CU 63.2 - Excepcion 1: Uso al 100% o valor nulo (no se otorga insignia)" vertex="1">
+          <mxGeometry height="26" width="650" x="90" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n206af30919" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_IAController" vertex="1">
+          <mxGeometry height="340" width="150" x="285" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nbfcaf0950c" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_MySQL_Controller" vertex="1">
+          <mxGeometry height="340" width="150" x="515" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n49044fe28a" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="Historial_Ejecución" vertex="1">
+          <mxGeometry height="340" width="150" x="745" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n9b3428dd8d" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;rounded=0;" value="Trigger fin de mes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nb95230b398" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Consulta registro mensual">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="181.57999999999998" as="sourcePoint" />
+            <mxPoint x="590" y="181.57999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0e3640d5bd" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Lee emisiones del mes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="210" as="sourcePoint" />
+            <mxPoint x="820" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n521967bcbd" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Retorna uso = 100% / nulo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="250" as="sourcePoint" />
+            <mxPoint x="590" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ne4381c29d5" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Margen consolidado no sostenible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="280" as="sourcePoint" />
+            <mxPoint x="360" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nbdfa54c564" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;rounded=1;" value="Descarta otorgamiento de insignia">
+          <mxGeometry relative="1" x="0.1791" y="-45" as="geometry">
+            <mxPoint x="45" y="45" as="offset" />
+            <Array as="points">
+              <mxPoint x="415" y="310" />
+              <mxPoint x="415" y="334" />
+            </Array>
+            <mxPoint x="360" y="310" as="sourcePoint" />
+            <mxPoint x="360" y="334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4114639683" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Finaliza sin recompensa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="360" as="sourcePoint" />
+            <mxPoint x="130" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j8blQHZbraV6TFdZfJMM-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Sistema" vertex="1">
+          <mxGeometry height="46" width="35" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j8blQHZbraV6TFdZfJMM-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;fillColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="130" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU 63.2 - Excepcion 2" id="4CrukxkM1EZOC4LajPfJ">
+    <mxGraphModel dx="873" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n220250c592" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;" value="CU 63.2 - Excepcion 2: Sin registros mensuales cerrados" vertex="1">
+          <mxGeometry height="26" width="900" x="90" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n75b81b27c7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_IAController" vertex="1">
+          <mxGeometry height="320" width="150" x="285" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndd14051e46" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_MySQL_Controller" vertex="1">
+          <mxGeometry height="320" width="150" x="515" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nab8254815b" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="Historial_Ejecución" vertex="1">
+          <mxGeometry height="320" width="150" x="745" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n084d18ee47" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;rounded=0;" value="Trigger fin de mes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nb93f07dd81" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Consulta registros mensuales cerrados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="sourcePoint" />
+            <mxPoint x="590" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2eb92751f9" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Busca cierre mensual validado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="208" as="sourcePoint" />
+            <mxPoint x="820" y="208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n06fe1579d1" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Sin registros cerrados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="244" as="sourcePoint" />
+            <mxPoint x="590" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1a76932c06" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="No hay estadistica general">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="274" as="sourcePoint" />
+            <mxPoint x="360" y="274" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n328abdd81a" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;rounded=1;" value="Suprime rutina e inicia nuevo ciclo">
+          <mxGeometry relative="1" x="0.1194" y="35" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="415" y="304" />
+              <mxPoint x="415" y="328" />
+            </Array>
+            <mxPoint x="360" y="304" as="sourcePoint" />
+            <mxPoint x="360" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6827ec7e51" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Evaluacion pasiva omitida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="354" as="sourcePoint" />
+            <mxPoint x="130" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2XpiLy-giUpQqy8OYASG-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Sistema" vertex="1">
+          <mxGeometry height="46" width="35" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2XpiLy-giUpQqy8OYASG-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;fillColor=#000000;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="130" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU 69.1" id="3Js59_LqsgJ9VsnV6bGy">
+    <mxGraphModel dx="1047" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n450f422d2e" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;" value="CU 69.1 - Mostrando consejo no obstructivo (Flujo principal) [Reconstruido]" vertex="1">
+          <mxGeometry height="26" width="900" x="90" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n430c7942ac" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="V_Inicio" vertex="1">
+          <mxGeometry height="330" width="150" x="285" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nb2b7eab060" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_IAController" vertex="1">
+          <mxGeometry height="330" width="150" x="515" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ndb43b8852f" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_MySQL_Controller" vertex="1">
+          <mxGeometry height="330" width="150" x="745" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n88f2c1a5fa" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="Recomendación" vertex="1">
+          <mxGeometry height="330" width="150" x="975" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nc1b055c1dc" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;rounded=0;" value="Opera el tablero general de revision">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n7281c3398c" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Solicita consejo no obstructivo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="sourcePoint" />
+            <mxPoint x="590" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="na3712d52f6" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Consulta recomendacion activa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="208" as="sourcePoint" />
+            <mxPoint x="820" y="208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n32698c56bc" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Lee mensaje (estado_silenciado=false)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="229.5" as="sourcePoint" />
+            <mxPoint x="1050" y="229.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndfae3b8eff" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Retorna consejo estatico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="263.5" as="sourcePoint" />
+            <mxPoint x="820" y="263.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n97c2feff49" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Datos de recomendacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="295.5" as="sourcePoint" />
+            <mxPoint x="590" y="295.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ne254a35e3a" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Genera panel pasivo de consejo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="325.5" as="sourcePoint" />
+            <mxPoint x="360" y="325.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nd09e3afaa0" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Muestra recomendación no&amp;nbsp;&lt;div&gt;obstructiva al costado&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0435" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="360" y="353.5" as="sourcePoint" />
+            <mxPoint x="130" y="353.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0mIBnTtbMQFatdLjk9U-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Usuario" vertex="1">
+          <mxGeometry height="46" width="35" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L0mIBnTtbMQFatdLjk9U-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="130" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU 69.1 - Excepcion 1" id="dZFwaUzEIEEVvhRykNRN">
+    <mxGraphModel dx="1036" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n01ae3714e1" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;" value="CU 69.1 - Excepcion 1: Sin recomendaciones activas [Reconstruido]" vertex="1">
+          <mxGeometry height="26" width="900" x="100" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n8e443e5536" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="V_Inicio" vertex="1">
+          <mxGeometry height="340" width="150" x="285" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n8370899ce2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_IAController" vertex="1">
+          <mxGeometry height="340" width="150" x="515" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0e3abd4b3f" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_MySQL_Controller" vertex="1">
+          <mxGeometry height="340" width="150" x="745" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nef1a0e4fc0" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="Recomendación" vertex="1">
+          <mxGeometry height="340" width="150" x="975" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nda34f42aee" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;rounded=0;" value="Opera el tablero general">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4dd6aa36eb" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Solicita consejo no obstructivo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="sourcePoint" />
+            <mxPoint x="590" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="necde06645d" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Consulta recomendacion activa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="208" as="sourcePoint" />
+            <mxPoint x="820" y="208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0f1c7ed883" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Busca consejo no silenciado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="244" as="sourcePoint" />
+            <mxPoint x="1050" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n9d4e9386d0" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Sin recomendaciones disponibles">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="278" as="sourcePoint" />
+            <mxPoint x="820" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="na6636f14bb" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Conjunto vacio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="310" as="sourcePoint" />
+            <mxPoint x="590" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nee88d91a2b" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Omite panel de consejo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="340" as="sourcePoint" />
+            <mxPoint x="360" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nb711647e45" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Muestra tablero limpio sin consejo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="368" as="sourcePoint" />
+            <mxPoint x="130" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lQ7mHIv0oVh_IA1mYWV6-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Usuario" vertex="1">
+          <mxGeometry height="46" width="35" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lQ7mHIv0oVh_IA1mYWV6-4" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="130" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU 69.2" id="kxITgvbgiLS-7bUldAgG">
+    <mxGraphModel dx="1047" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n6e48a716ed" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;" value="CU 69.2 - Minimizando/archivando el consejo (Flujo principal)" vertex="1">
+          <mxGeometry height="26" width="900" x="90" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="necb78f22f9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="V_Inicio" vertex="1">
+          <mxGeometry height="340" width="150" x="285" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n7dfe9cb66e" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_IAController" vertex="1">
+          <mxGeometry height="340" width="150" x="515" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ne66285a267" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_MySQL_Controller" vertex="1">
+          <mxGeometry height="340" width="150" x="745" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n28cd6e73c4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="Recomendación" vertex="1">
+          <mxGeometry height="340" width="150" x="975" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ncd1a8978bc" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;rounded=0;" value="Acciona icono de ocultar/archivar consejo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8e37b14f08" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Solicita minimizar recomendacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="sourcePoint" />
+            <mxPoint x="590" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nda72c2881d" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Actualiza estado silenciado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="208" as="sourcePoint" />
+            <mxPoint x="820" y="208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nd3c82eca78" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="estado_silenciado = true (archiva en log)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="244" as="sourcePoint" />
+            <mxPoint x="1050" y="244" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n549d1cf7b0" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Confirma actualizacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="278" as="sourcePoint" />
+            <mxPoint x="820" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n35b581aa99" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Recomendacion archivada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="310" as="sourcePoint" />
+            <mxPoint x="590" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6c21d11d6c" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Colapsa panel (altura cero)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="340" as="sourcePoint" />
+            <mxPoint x="360" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n42cea54759" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Tablero limpio, reporte base sin distracciones">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="368" as="sourcePoint" />
+            <mxPoint x="130" y="368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZpG7OJZ4_oIb_WHau87Q-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Usuario" vertex="1">
+          <mxGeometry height="46" width="35" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZpG7OJZ4_oIb_WHau87Q-5" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="130" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU 69.2 - Excepcion 1" id="WH7UXxzam6aFidmdvIVi">
+    <mxGraphModel dx="1047" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1824eda13d" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;" value="CU 69.2 - Excepcion 1: Componente visual no reacciona al clic" vertex="1">
+          <mxGeometry height="26" width="900" x="90" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ned4033e059" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="V_Inicio" vertex="1">
+          <mxGeometry height="400" width="150" x="285" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n98140c62a0" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_IAController" vertex="1">
+          <mxGeometry height="400" width="150" x="515" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nbb62d533dc" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_MySQL_Controller" vertex="1">
+          <mxGeometry height="400" width="150" x="745" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n14f08b1ae7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="Log_Excepción" vertex="1">
+          <mxGeometry height="400" width="150" x="975" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n13ef18ac6e" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;rounded=0;" value="Acciona icono de ocultar consejo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="na1ddec9201" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;rounded=1;" value="GUI no reacciona (render colapsado)">
+          <mxGeometry relative="1" x="0.0896" y="45" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="415" y="180" />
+              <mxPoint x="415" y="204" />
+            </Array>
+            <mxPoint x="360" y="180" as="sourcePoint" />
+            <mxPoint x="360" y="204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nf1e284fd0d" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Reporta fallo de interaccion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="238" as="sourcePoint" />
+            <mxPoint x="590" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n041d52f65d" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Registra incidencia">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="268" as="sourcePoint" />
+            <mxPoint x="820" y="268" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndc3a110d23" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Inserta descripcion_falla + codigo_error">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="296" as="sourcePoint" />
+            <mxPoint x="1050" y="296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nae30be25f6" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Confirma registro">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="332" as="sourcePoint" />
+            <mxPoint x="820" y="332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nf5536e4383" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Incidencia registrada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="366" as="sourcePoint" />
+            <mxPoint x="590" y="366" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nf399b6bdef" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Mantiene panel sin colapsar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="397" as="sourcePoint" />
+            <mxPoint x="360" y="397" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nd0860dcfeb" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Consejo permanece visible (sin bloqueo)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="427" as="sourcePoint" />
+            <mxPoint x="130" y="427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jm9GRzIvK4REgrC5HNmE-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Usuario" vertex="1">
+          <mxGeometry height="46" width="35" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jm9GRzIvK4REgrC5HNmE-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="130" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CU 69.2 - Excepcion 2" id="U3iiuxo5ia5HDkc5k5Rp">
+    <mxGraphModel dx="1528" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="naaf8ccfa7f" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontStyle=1;fontSize=14;" value="CU 69.2 - Excepcion 2: Falla de redibujado (panel no contrae)" vertex="1">
+          <mxGeometry height="26" width="900" x="100" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ndf95a14be0" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="V_Inicio" vertex="1">
+          <mxGeometry height="460" width="150" x="285" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n8fd3837ab2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_IAController" vertex="1">
+          <mxGeometry height="460" width="150" x="515" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nad4d6bb708" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="C_MySQL_Controller" vertex="1">
+          <mxGeometry height="460" width="150" x="745" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ne34bfa6f0b" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="Recomendación" vertex="1">
+          <mxGeometry height="460" width="150" x="975" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nd83beeb3d8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" value="Log_Excepción" vertex="1">
+          <mxGeometry height="460" width="150" x="1205" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nb90b4f2bd7" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;startSize=8;endArrow=block;endFill=1;rounded=0;" value="Acciona icono de ocultar consejo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfc30abab5b" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Solicita minimizar recomendacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="180" as="sourcePoint" />
+            <mxPoint x="590" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n45d665bd9b" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Actualiza estado silenciado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="208" as="sourcePoint" />
+            <mxPoint x="820" y="208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="na58804f700" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="estado_silenciado = true">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="234" as="sourcePoint" />
+            <mxPoint x="1050" y="234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n56d945212f" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Confirma actualizacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="270.44" as="sourcePoint" />
+            <mxPoint x="820" y="270.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4592f6dc48" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Estado ya silenciado en BD">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="292.44" as="sourcePoint" />
+            <mxPoint x="590" y="292.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n979655b365" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Ordena colapsar panel">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="322.44" as="sourcePoint" />
+            <mxPoint x="360" y="322.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n551b9e49a2" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;rounded=1;" value="Falla de redibujado (panel sigue visible)">
+          <mxGeometry relative="1" x="0.1791" y="-45" as="geometry">
+            <mxPoint x="45" y="45" as="offset" />
+            <Array as="points">
+              <mxPoint x="415" y="350.44" />
+              <mxPoint x="415" y="374.44" />
+            </Array>
+            <mxPoint x="360" y="350.44" as="sourcePoint" />
+            <mxPoint x="360" y="374.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nc99b55346e" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Registra falla de render">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="396.44" as="sourcePoint" />
+            <mxPoint x="820" y="396.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nd84f98006f" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=block;endFill=1;rounded=0;" value="Inserta descripcion_falla">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="424.44" as="sourcePoint" />
+            <mxPoint x="1280" y="424.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nca906eab86" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Confirma registro">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="460.44000000000005" as="sourcePoint" />
+            <mxPoint x="820" y="460.44000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="na2e6671838" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;dashed=1;rounded=0;" value="Aviso ignorado de fondo, continuidad sin frenar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="494.44000000000005" as="sourcePoint" />
+            <mxPoint x="130" y="494.44000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l5x4uuAtYvqOBiWFr6BE-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Usuario" vertex="1">
+          <mxGeometry height="46" width="35" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l5x4uuAtYvqOBiWFr6BE-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="130" as="sourcePoint" />
+            <mxPoint x="130" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
